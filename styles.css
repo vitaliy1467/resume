@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital@0;1&family=Suranna&display=swap');
+
+body {
+    font-family: "roboto", 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #0F141E;
+    background: #F1F1F1;
+}
+
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    gap: 30px;
+    display: flex;
+}
+
+@media (max-width: 706px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+.info p {
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    height: 130;
+}
+
+.avatar {
+    width: auto;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.6)
+}
+
+.text1 {
+    color: rgb(241 106 48);
+}
+
+.text2 {
+    color: rgb(48 106 241);
+}
+
+.text3 {
+    color: #f7e024;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.bg-yellow {
+    background-color: #ffccbb;
+    margin-bottom: 10px;
+}
+@media (max-width: 706) {
+  
+}
+
+.bg-green {
+    background-color: #6eb5c0;
+}
+
+.bg-blue {
+    background-color: #006c84;
+}
+
+.bg-darkblue h2 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.bg-darkblue {
+    margin: 10px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+ 
+
+h1 {
+    margin: 10px;
+}
+
+.link {
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+@media(max-width: 706px) {
+    .link {
+        padding-bottom: 30px;
+    }
+}
+
+
+.name {
+    margin: 0;
+    color: rgb(189, 189, 189);
+}
+
+table {
+    margin: 10px;
+    width: 450px;
+}
+
+
+
+
+.btn {
+    color: white;
+    background: black;
+    border: none;
+    padding: 13px 15px;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .2s;
+    font-family: inherit;
+}
+@media (max-width: 706px) {
+    .btn {
+        padding: 8px 10px;
+        font-size: small;
+
+    }    
+    .btn:hover {
+        transition: all 0.2;
+        font-size: .5rem;
+    }
+}
+
+.btn:hover {
+    color: blue;
+    opacity: .8;
+    font-size: 1rem;
+}
+
+a {
+    margin: 10px;
+}
+
+.btn:active {
+    color: #1b233b;
+}
+
+.btn:visited {
+    color: purple;
+}
+
+.bg-yellow ol li:nth-child(3) {
+    background: rgb(242, 67, 67);
+}
+
+.bg-green tr th,
+tr td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table {
+    padding-right: 25px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.bg-blue ul li {
+    padding: 5px;
+}
+
+.bg-blue ul li:nth-child(1) {
+    background: rgb(241 106 48);
+    width: 42px;
+}
+
+.bg-blue ul li:nth-child(2) {
+    background: rgb(48 106 241);
+    width: 42px;
+}
+
+.bg-blue ul li:nth-child(3) {
+    background: #f7e024;
+    width: 42px;
+}
+
+
+.form h2 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86899f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #86899f;
+    outline: none;
+    padding: 15px 0px 10px;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+
+}
+@media (max-width: 706px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
