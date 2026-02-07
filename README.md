@@ -2,4 +2,4 @@
 
 ## Результат можно посмотреть тут:
 
-(Моя первая работа с html и css)[https://vitaliy1467.github.io/resume/]
+[Моя первая работа с html и css](https://vitaliy1467.github.io/resume/)
