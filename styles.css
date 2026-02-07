@@ -77,6 +77,7 @@ body {
     background-color: #6eb5c0;
 }
 
+
 .bg-blue {
     background-color: #006c84;
 }
@@ -125,7 +126,6 @@ table {
 
 
 
-
 .btn {
     color: white;
     background: black;
@@ -139,20 +139,10 @@ table {
     transition: all .2s;
     font-family: inherit;
 }
-@media (max-width: 706px) {
-    .btn {
-        padding: 8px 10px;
-        font-size: small;
 
-    }    
-    .btn:hover {
-        transition: all 0.2;
-        font-size: .5rem;
-    }
-}
 
 .btn:hover {
-    color: blue;
+    color: rgb(100, 168, 253);
     opacity: .8;
     font-size: 1rem;
 }
@@ -161,14 +151,29 @@ a {
     margin: 10px;
 }
 
-.btn:active {
-    color: #1b233b;
-}
+
 
 .btn:visited {
-    color: purple;
+    color: rgb(157, 0, 157);
 }
+@media (max-width: 706px) {
+    .btn {
+        padding: 8px 10px;
+        font-size: small;
 
+    }    
+    .btn:hover {
+        transition: all 0.2;
+        font-size: .7rem;
+       
+    }
+    .btn:active {
+         color: blue;
+    }
+}
+.btn:active {
+    color: blue;
+}
 .bg-yellow ol li:nth-child(3) {
     background: rgb(242, 67, 67);
 }
@@ -185,6 +190,12 @@ tr td {
     width: 100%;
     margin-left: 0;
     margin-bottom: 5px;
+}
+@media (max-width: 706px) {
+    .table {
+        padding-right: 0px;
+    }
+    
 }
 
 .bg-blue ul li {
