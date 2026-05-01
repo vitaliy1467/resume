@@ -205,11 +205,16 @@ table {
   padding: 13px 15px;
   border-radius: 10px;
   margin: 10px;
+
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;
   transition: all 0.2s;
   font-family: inherit;
+}
+
+.info-content {
+  margin-bottom: 70px;
 }
 
 .btn:hover {
