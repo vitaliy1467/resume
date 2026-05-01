@@ -9,16 +9,23 @@ body {
   max-width: 100%;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding-top: 30px;
   margin-top: 100px;
 }
 @media (max-width: 706px) {
   .container {
-    max-width: 530px;
+    max-width: 100%;
     margin: auto;
+  }
+  html {
+    overflow-x: hidden;
   }
 }
 .info {
@@ -33,11 +40,12 @@ body {
     margin-top: 50px;
   }
 }
+
 .info p {
   margin: 0;
   font-style: italic;
   font-weight: normal;
-  height: 108px;
+  height: auto; /* было 108px */
 }
 
 .avatar {
@@ -73,7 +81,7 @@ body {
 }
 
 .a2 {
-  animation: fadeIn2 backwards;
+  animation: fadeIn backwards;
   animation-timeline: view();
 
   animation-range-start: cover 5%;
@@ -104,17 +112,6 @@ body {
 } */
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateX(80px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-
-@keyframes fadeIn2 {
   0% {
     opacity: 0;
     transform: translateX(-80px);
@@ -174,8 +171,9 @@ h1 {
 }
 
 .link {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 .card1 {
@@ -221,7 +219,7 @@ table {
 }
 
 a {
-  margin: 10px;
+  margin: 5px;
 }
 
 .btn:visited {
@@ -230,8 +228,9 @@ a {
 
 @media (max-width: 706px) {
   .btn {
-    padding: 10px 15px;
+    padding: 10px 8px;
     font-size: smaller;
+    margin: 1px;
   }
   .btn:hover {
     transition: all 0.2;
